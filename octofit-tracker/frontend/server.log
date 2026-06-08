@@ -1,0 +1,16 @@
+nohup: ignoring input
+
+> octofit-tracker-frontend@0.1.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 299 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+7:45:32 AM [vite] page reload index.html
+7:45:32 AM [vite] page reload src/main.jsx
+7:45:32 AM [vite] hmr update /src/App.jsx
+7:45:32 AM [vite] hmr update /src/styles.css
+7:45:32 AM [vite] vite.config.mjs changed, restarting server...
+7:45:33 AM [vite] server restarted.
