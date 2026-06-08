@@ -16,8 +16,11 @@ const PORT = Number(process.env.PORT || 8000)
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/octofit_db'
 
 // Codespaces-aware public API URL
+// If running in a Codespace, construct the preview URL using the pattern:
+//   https://<CODESPACE_NAME>-8000.app.github.dev
+// Otherwise, fall back to localhost
 const PUBLIC_URL = process.env.CODESPACE_NAME
-  ? `https://${process.env.CODESPACE_NAME}-8000.githubpreview.dev`
+  ? `https://${process.env.CODESPACE_NAME}-8000.app.github.dev`
   : `http://localhost:${PORT}`
 
 mongoose.connect(MONGO_URI)
