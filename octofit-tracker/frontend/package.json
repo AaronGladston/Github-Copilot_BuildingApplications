@@ -9,8 +9,8 @@
     "print-api": "node ./scripts/printApiBase.js"
   },
   "dependencies": {
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-router-dom": "^6.14.1"
   },
   "devDependencies": {
